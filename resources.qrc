@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/texture_analyzer" >
-        	<file>images/icon.png</file>
-		<file>images/lasenso.png</file>
-		<file>images/decart.png</file>
-		<file>images/ctg.png</file>
-		<file>images/ufpe.png</file>
-    </qresource>
-</RCC>
