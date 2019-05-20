@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Texture Analyzer
+qgisMinimumVersion=3.0
+description=Procura identificar as texturas presentes em um dado conjuntos de imagens raster.
+version=0.1
+author=Givaldo Cesar/DECart/UFPE
+email=givaldocesar@live.com
+
+about=Este plugin procura identificar as texturas presentes na área de estudo utilizando os números digitais de um conjunto de imagens de um sensor. Desenvolvido como TCC por Givaldo Cesar sob a orientação de João Tavares para o curso de Engenharia Cartográfica e de Agrimensura da Universidade Federal de Pernambuco no ano de 2019.
+
+tracker=https://github.com/givaldocesar/textanalyzer
+repository=https://github.com/givaldocesar/textanalyzer
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python, texturas, análise, sensoriamento, remoto, raster
+
+homepage=https://github.com/givaldocesar/textanalyzer
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
